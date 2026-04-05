@@ -66,3 +66,4 @@ with open("data.json", mode="r", encoding="utf_8") as read_file:
 print(frie_data)
 print(type(frie_data))
 print(frie_data["name"])
+print(json.dumps(dog_registry, indent=" ⮑ "))
